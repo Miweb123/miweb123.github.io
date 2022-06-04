@@ -1,0 +1,133 @@
+.{
+padding: ; 0;
+margin: ; 0;
+box-sizing: border box;
+}
+.body{
+    font-family: 'Trebucher MS', 'Licida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial, sans-serif';
+}
+.header{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: colum;
+    padding: 30px 0;
+}
+.content-logo img{
+    width: 100px;
+}
+.lista-de-menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 30px 30px;
+    color:#000000;
+}
+.background{
+    background-image: url("../imagenes/imagen01.jpg");
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.traspaso{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo h1{
+    color: black;
+}
+.titulo-principal h1{
+    color: black;
+}
+.btn_kity a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    background: rgba(0,0,0,0.47);
+}
+.color-de-banner{
+    margin-top: 10px;
+    background-color: #000000;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contenido h5{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+.contenido p{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+.detalles-de-informacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.información h5{
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+}
+.información h4{
+    color: #0e96dd;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+información p{
+    color: #646464;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.información{
+    padding: 50px 50px;
+}
+.información img{
+    width: 500px;
+}
+.boton{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    background: rgba(0,0,0,0.47);
+}
+.contenido-del-footer{
+    background-color: #000000;
+    height: 350px;
+}
+.detalles-del-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px 0;
+}
+.detalles h3{
+    color: white;
+    margin-bottom: 20px;
+}
+.detalles p{
+    color: white;
+}
+.fin{
+    background-color: #000000;
+}
+.fin p{
+    color: white;
+    text-align: center;
+}
